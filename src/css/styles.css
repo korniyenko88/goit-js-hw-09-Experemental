@@ -23,11 +23,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+/* Стилі колекції картинок */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1440px;
+
 }
 .gallery {
   list-style: none;
@@ -51,4 +52,15 @@ body {
 }
 .gallery-image:hover {
   transform: scale(1.1);
+}
+/* кінець стилів колекції картинок */
+
+/* Стилі форми */
+
+.feedback-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
 }
