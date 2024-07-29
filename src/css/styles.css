@@ -23,3 +23,32 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+}
+.gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item {
+  margin: 12px;
+}
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  transition: transform 0.5s ease-in-out;
+}
+.modal-gallery-image {
+  width: 1112px;
+  height: 640px;
+}
+.gallery-image:hover {
+  transform: scale(1.1);
+}
